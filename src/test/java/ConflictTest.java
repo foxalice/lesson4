@@ -10,7 +10,7 @@ public class ConflictTest {
     void JustTestForLesson() {
 
         open("https://github.com");
-
+        sleep(5000);
         $(".header-menu-wrapper").$(byText("Solutions")).hover();
         $(withText("Enterprise")).click();
         $(".h1-mktg").shouldHave(text("Build like the best"));
