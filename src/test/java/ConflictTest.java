@@ -15,7 +15,7 @@ public class ConflictTest {
         $(withText("Enterprise")).click();
         $(".h1-mktg").shouldHave(text("Build like the best"));
 
-
+        open("https://github.com/selenide");
 
     }
 }
